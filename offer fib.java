@@ -1,4 +1,12 @@
-class Solution {
+//using BF
+class Solution1 {
+    public int fib(int n) {
+        if (n <= 1) return n;
+        return fib(n - 1) + fib(n - 2);
+    }
+}
+//store the value
+class Solution2 {
     public int fib(int n) {
         int[] memory = new int[n+1];
         return (int) store(n, memory);
@@ -12,13 +20,3 @@ class Solution {
     }
 }
 
-class Main {
-    public static void main(String[] args) {
-        // Create a new Solution instance
-        Solution solution = new Solution();
-        // Create a test case
-        int answer = solution.fib(5);
-        // Print the answer
-        System.out.println(answer);
-    }
-}
