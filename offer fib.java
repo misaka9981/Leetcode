@@ -10,6 +10,8 @@ class Solution2 {
     public int fib(int n) {
         int[] memory = new int[n+1];
         return (int) store(n, memory);
+        
+        
     }
 
     public int store(int i,int[] memory){
