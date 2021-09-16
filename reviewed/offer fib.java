@@ -1,12 +1,12 @@
-//using BF
-class Solution1 {
+//直接使用递归式，时间复杂度较高
+class Solution {
     public int fib(int n) {
         if (n <= 1) return n;
         return fib(n - 1) + fib(n - 2);
     }
 }
-//store the value
-class test {
+//将冗余的计算存储为额外的数组，有一定的空间复杂度
+class Solution {
     public int fib(int n) {
         int[] memory = new int[n+1];
         return (int) store(n, memory);
@@ -21,14 +21,4 @@ class test {
 }
 
 
-//class Main {
-//    public static void main(String[] args) {
-//        // Create a new Solution instance
-//        test t = new test();
-//        // Create a test case
-//        int x = 4;
-//        int answer = t.fib(x);
-//        // Print the answer
-//        System.out.println(answer);
-//    }
-//}
+
