@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-class Solution2 {
+class Solution {
     public int balancedStringSplit(String s) {
         int n = 0;
         int num = 0;
@@ -22,16 +22,16 @@ class Solution2 {
     }
 }
 
-class Main {
-    public static void main(String[] args) {
-        // Create a new Solution instance
-        Solution2 solution = new Solution2();
-        // Create a test case
-        String s = "RLRRLLRLRL";
-        int answer = solution.balancedStringSplit(s);
-        // Print the answer
-        System.out.println(answer);
-    }
-}
+// class Main {
+//     public static void main(String[] args) {
+//         // Create a new Solution instance
+//         Solution2 solution = new Solution2();
+//         // Create a test case
+//         String s = "RLRRLLRLRL";
+//         int answer = solution.balancedStringSplit(s);
+//         // Print the answer
+//         System.out.println(answer);
+//     }
+// }
 // @lc code=end
 

@@ -20,11 +20,20 @@ class Solution2 {
             x /= 10;
         }
         return res;
-    }
-
-    
+    }    
 }
 
+//class Main {
+//    public static void main(String[] args) {
+//        // Create a new Solution instance
+//        Solution2 solution = new Solution2();
+//        // Create a test case
+//        int x = 12345;
+//        int answer = solution.reverse(x);
+//        // Print the answer
+//        System.out.println(answer);
+//    }
+//}
 
 // @lc code=end
 

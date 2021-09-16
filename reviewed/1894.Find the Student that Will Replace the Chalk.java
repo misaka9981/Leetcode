@@ -8,11 +8,11 @@
 class Solution {
     public int chalkReplacer(int[] chalk, int k) {
         int len = chalk.length;
-        int sum = 0;
+        long sum = 0;
         for (int num : chalk) {
             sum += num;
         }
-        k = k % sum;
+        k %= sum;
         int res = -1;
         for (int i = 0; i < len; ++i) {
             if (chalk[i] > k) {
