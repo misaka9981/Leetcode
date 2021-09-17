@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-class Solution2 {
+class Solution {
     public int findPeakElement(int[] nums) {
         int left = 0, right = nums.length - 1;
         for (; left < right; ) {
@@ -20,19 +20,19 @@ class Solution2 {
     }
 }
 
-class Main {
-    public static void main(String[] args) {
-        // Create a new Solution instance
-        Solution2 solution = new Solution2();
-        // Create a test case
-        int[] x = new int[]{1,2,1,3,5,6,4};
-        int answer = solution.findPeakElement(x);
-        // int[][] x = {{0,0},{1,0},{2,0}};
-        // int answer = solution.numberOfBoomerangs(x);
-        // Print the answer
-        //System.out.println(answer);
-        System.out.println(answer);
-    }
-}
+// class Main {
+//     public static void main(String[] args) {
+//         // Create a new Solution instance
+//         Solution2 solution = new Solution2();
+//         // Create a test case
+//         int[] x = new int[]{1,2,1,3,5,6,4};
+//         int answer = solution.findPeakElement(x);
+//         // int[][] x = {{0,0},{1,0},{2,0}};
+//         // int answer = solution.numberOfBoomerangs(x);
+//         // Print the answer
+//         //System.out.println(answer);
+//         System.out.println(answer);
+//     }
+// }
 // @lc code=end
 
