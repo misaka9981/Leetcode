@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution292_1 {
     public boolean canWinNim(int n) {
         if(n < 4){
             return true;

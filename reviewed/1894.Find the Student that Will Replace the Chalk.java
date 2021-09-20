@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution1894_1 {
     public int chalkReplacer(int[] chalk, int k) {
         int len = chalk.length;
         long sum = 0;

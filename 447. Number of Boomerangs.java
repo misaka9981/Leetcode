@@ -9,7 +9,7 @@ import java.util.HashSet;
  */
 
 // @lc code=start
-class Solution {
+class Solution447_1 {
     public int numberOfBoomerangs(int[][] points) {
         int result = 0;
         for (int i = 0; i < points.length; i++) {

@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution678_1 {
     public boolean checkValidString(String s) {
         int left = 0, right = 0;
         for (char c : s.toCharArray()) {

@@ -9,7 +9,7 @@ import java.util.ArrayList;
  */
 
 // @lc code=start
-class Solution {
+class Solution524_1 {
     public String findLongestWord(String s, List<String> dictionary) {
         Collections.sort(dictionary, new SortByLengthComparator());
         for (String t : dictionary) {

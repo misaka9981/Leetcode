@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution162_1 {
     public int findPeakElement(int[] nums) {
         int left = 0, right = nums.length - 1;
         for (; left < right; ) {

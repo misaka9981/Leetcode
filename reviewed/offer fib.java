@@ -1,12 +1,12 @@
 //直接使用递归式，时间复杂度较高
-class Solution {
+class Solution_offerFib_2 {
     public int fib(int n) {
         if (n <= 1) return n;
         return fib(n - 1) + fib(n - 2);
     }
 }
 //将冗余的计算存储为额外的数组，有一定的空间复杂度
-class Solution {
+class Solution_offerFib_1 {
     public int fib(int n) {
         int[] memory = new int[n+1];
         return (int) store(n, memory);

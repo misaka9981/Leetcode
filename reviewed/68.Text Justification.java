@@ -4,8 +4,12 @@
  * [68] 文本左右对齐
  */
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 // @lc code=start
-class Solution {
+class Solution68_1 {
     public List<String> fullJustify(String[] words, int maxWidth) {
         List<String> res = new ArrayList<>();
         int len = words.length, index = 0;

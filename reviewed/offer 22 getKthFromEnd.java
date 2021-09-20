@@ -6,7 +6,7 @@ class ListNode {
     ListNode(int x) { val = x; }
 }
  
-class Solution {
+class Solution_offer22_1 {
     public ListNode getKthFromEnd(ListNode head, int k) {
         int length = 0;
         ListNode tmp1 = head;    
@@ -24,7 +24,7 @@ class Solution {
 }
 
 
-class Solution2 {
+class Solution_offer22_2 {
     public ListNode getKthFromEnd(ListNode head, int k) {
         ListNode fast = head;
         ListNode slow = head;
@@ -41,14 +41,14 @@ class Solution2 {
     }
 }
 
-class Main {
-    public static void main(String[] args) {
-        // Create a new Solution instance
-        Solution2 solution = new Solution2();
-        // Create a test case
-       
-        ListNode answer = solution.getKthFromEnd(head1,3);
-        // Print the answer
-        System.out.println(answer);
-    }
-}
+//class Main {
+//    public static void main(String[] args) {
+//        // Create a new Solution instance
+//        Solution2 solution = new Solution2();
+//        // Create a test case
+//
+//        ListNode answer = solution.getKthFromEnd(head1,3);
+//        // Print the answer
+//        System.out.println(answer);
+//    }
+//}

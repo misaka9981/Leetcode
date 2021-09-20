@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution1221_1 {
     public int balancedStringSplit(String s) {
         int n = 0;
         int num = 0;

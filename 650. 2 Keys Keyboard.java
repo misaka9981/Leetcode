@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution650_1 {
     public int minSteps(int n) {
         if(n == 1) return 0;
         int res = n;

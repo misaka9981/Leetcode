@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-class Solution2 {
+class Solution7_1 {
     public int reverse(int x) {
         int res = 0;
         int last = 0;

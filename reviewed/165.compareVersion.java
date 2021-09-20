@@ -6,7 +6,7 @@
 
 // @lc code=start
 //using split
-class Solution1 {
+class Solution165_1 {
     public int compareVersion(String version1, String version2) {
         String[] v1 = version1.split("\\.");
         String[] v2 = version2.split("\\.");
@@ -29,7 +29,7 @@ class Solution1 {
     }
 }
 //using double pointer
-class Solution3 {
+class Solution165_2 {
     public int compareVersion(String version1, String version2) {
         int len1 = version1.length(),len2 = version2.length(),cur1 = 0,cur2 = 0,v1 = 0,v2 = 0;
         while (cur1 < len1 ||  cur2 < len2) {
@@ -52,16 +52,16 @@ class Solution3 {
     }
 }
 
-class Main {
-    public static void main(String[] args) {
-        // Create a new Solution instance
-        Solution3 solution = new Solution3();
-        // Create a test case
-        String version1 = "7.5.3.3", version2 = "7.5.3.5";
-        int answer = solution.compareVersion(version1,version2);
-        // Print the answer
-        System.out.println(answer);
-    }
-}
+//class Main {
+//    public static void main(String[] args) {
+//        // Create a new Solution instance
+//        Solution3 solution = new Solution3();
+//        // Create a test case
+//        String version1 = "7.5.3.3", version2 = "7.5.3.5";
+//        int answer = solution.compareVersion(version1,version2);
+//        // Print the answer
+//        System.out.println(answer);
+//    }
+//}
 // @lc code=end
 

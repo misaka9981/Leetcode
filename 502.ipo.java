@@ -1,6 +1,4 @@
-import java.util.Queue;
-import java.util.PriorityQueue;
-import java.util.Collections;
+import java.util.*;
 /*
  * @lc app=leetcode.cn id=502 lang=java
  *
@@ -8,7 +6,7 @@ import java.util.Collections;
  */
 
 // @lc code=start
-class Solution {
+class Solution502_1 {
     public int findMaximizedCapital(int k, int w, int[] profits, int[] capital) {
         int n = profits.length;
         List<int[]> list = new ArrayList<>();

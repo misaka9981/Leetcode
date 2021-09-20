@@ -4,8 +4,10 @@
  * [36] 有效的数独
  */
 import java.util.HashSet;
+import java.util.Set;
+
 // @lc code=start
-class Solution2 {
+class Solution36_1 {
     public boolean isValidSudoku(char[][] board) {
         HashSet<Character> column = new HashSet<Character>();
         HashSet<Character> row = new HashSet<Character>();
@@ -87,19 +89,19 @@ class Solution {
     }
 }
 
-class Main {
-    public static void main(String[] args) {
-        // Create a new Solution instance
-        Solution2 solution = new Solution2();
-        // Create a test case
-        char[][] x = {{'.','.','4','.','.','.','6','3','.'},{'.','.','.','.','.','.','.','.','.'},{'5','.','.','.','.','.','.','9','.'},{'.','.','.','5','6','.','.','.','.'},{'4','.','3','.','.','.','.','.','1'},{'.','.','.','7','.','.','.','.','.'},{'.','.','.','5','.','.','.','.','.'},{'.','.','.','.','.','.','.','.','.'},{'.','.','.','.','.','.','.','.','.'}};
-        boolean answer = solution.isValidSudoku(x);
-        // int[][] x = {{0,0},{1,0},{2,0}};
-        // int answer = solution.numberOfBoomerangs(x);
-        // Print the answer
-        //System.out.println(answer);
-        System.out.println(answer);
-    }
-}
+//class Main {
+//    public static void main(String[] args) {
+//        // Create a new Solution instance
+//        Solution2 solution = new Solution2();
+//        // Create a test case
+//        char[][] x = {{'.','.','4','.','.','.','6','3','.'},{'.','.','.','.','.','.','.','.','.'},{'5','.','.','.','.','.','.','9','.'},{'.','.','.','5','6','.','.','.','.'},{'4','.','3','.','.','.','.','.','1'},{'.','.','.','7','.','.','.','.','.'},{'.','.','.','5','.','.','.','.','.'},{'.','.','.','.','.','.','.','.','.'},{'.','.','.','.','.','.','.','.','.'}};
+//        boolean answer = solution.isValidSudoku(x);
+//        // int[][] x = {{0,0},{1,0},{2,0}};
+//        // int answer = solution.numberOfBoomerangs(x);
+//        // Print the answer
+//        //System.out.println(answer);
+//        System.out.println(answer);
+//    }
+//}
 // @lc code=end
 

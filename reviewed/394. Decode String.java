@@ -9,7 +9,7 @@ import java.util.Deque;
 
 
 // @lc code=start
-class Rolution {
+class Solution394_1 {
     public String decodeString(String s) {
         char[] s2a = s.toCharArray();
         int len = s.length();
@@ -51,16 +51,16 @@ class Rolution {
     }
 }
 
-class Main {
-    public static void main(String[] args) {
-        // Create a new Solution instance
-        Rolution solution = new Rolution();
-        // Create a test case
-        String str = "3[a]2[bc]";
-        String answer = solution.decodeString(str);
-        // Print the answer
-        System.out.println(answer);
-    }
-}
+//class Main {
+//    public static void main(String[] args) {
+//        // Create a new Solution instance
+//        Rolution solution = new Rolution();
+//        // Create a test case
+//        String str = "3[a]2[bc]";
+//        String answer = solution.decodeString(str);
+//        // Print the answer
+//        System.out.println(answer);
+//    }
+//}
 // @lc code=end
 

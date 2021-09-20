@@ -5,7 +5,7 @@
  */
 
 // @lc code=start
-class Solution {
+class Solution600_1 {
     public int findIntegers(int n) {
         return dfs(0,0,false,n);
     }

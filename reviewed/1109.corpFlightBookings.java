@@ -1,4 +1,4 @@
-/*
+package reviewed;/*
  * @lc app=leetcode.cn id=1109 lang=java
  *
  * [1109] 航班预订统计
@@ -6,7 +6,7 @@
 
 // @lc code=start
 //using BF
-class Solution1 {
+class Solution1109_1 {
     public int[] corpFlightBookings(int[][] bookings, int n) {
         int ans[] = new int[n];
         for (int[] record : bookings) {
@@ -18,7 +18,7 @@ class Solution1 {
     }
 }
 //using partial sum
-class Solution2 {
+class Solution1109_3 {
     public int[] corpFlightBookings(int[][] bookings, int n) {
         int[] counters = new int[n];
         for (int[] booking : bookings) {
@@ -35,10 +35,10 @@ class Solution2 {
     }
 }
 //using Segment Tree
-class Solution3 {
+class Solution1109_2 {
     public int[] corpFlightBookings(int[][] bookings, int n) {
         
-        
+        return null;
     }
 }
 
