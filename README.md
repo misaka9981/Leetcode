@@ -1,1 +1,1 @@
-# Leetcode
+Leetcode 1 question per day
