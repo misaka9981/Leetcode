@@ -1,4 +1,4 @@
-/*
+package reviewed;/*
  * @lc app=leetcode.cn id=68 lang=java
  *
  * [68] 文本左右对齐

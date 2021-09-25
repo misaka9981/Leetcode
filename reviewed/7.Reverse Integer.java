@@ -1,3 +1,4 @@
+package reviewed;
 /*
  * @lc app=leetcode.cn id=7 lang=java
  *
@@ -23,17 +24,17 @@ class Solution7_1 {
     }    
 }
 
-//class Main {
-//    public static void main(String[] args) {
-//        // Create a new Solution instance
-//        Solution2 solution = new Solution2();
-//        // Create a test case
-//        int x = 12345;
-//        int answer = solution.reverse(x);
-//        // Print the answer
-//        System.out.println(answer);
-//    }
-//}
+class Main7 {
+    public static void main(String[] args) {
+        // Create a new Solution instance
+        Solution7_1 solution = new Solution7_1();
+        // Create a test case
+        int x = 12345;
+        int answer = solution.reverse(x);
+        // Print the answer
+        System.out.println(answer);
+    }
+}
 
 // @lc code=end
 
