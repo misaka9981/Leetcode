@@ -1,3 +1,5 @@
+package reviewed;
+
 import java.util.ArrayDeque;
 import java.util.Deque;
 
@@ -49,18 +51,18 @@ class Solution394_1 {
         }
         return res.reverse().toString();
     }
+
+    public static void main(String[] args) {
+        // Create a new Solution instance
+        Solution394_1 solution = new Solution394_1();
+        // Create a test case
+        String str = "3[a]2[bc]";
+        String answer = solution.decodeString(str);
+        // Print the answer
+        System.out.println(answer);
+    }
 }
 
-//class Main {
-//    public static void main(String[] args) {
-//        // Create a new Solution instance
-//        Rolution solution = new Rolution();
-//        // Create a test case
-//        String str = "3[a]2[bc]";
-//        String answer = solution.decodeString(str);
-//        // Print the answer
-//        System.out.println(answer);
-//    }
-//}
+
 // @lc code=end
 
