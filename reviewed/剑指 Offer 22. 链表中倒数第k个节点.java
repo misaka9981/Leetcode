@@ -6,7 +6,7 @@ class ListNode {
     ListNode(int x) { val = x; }
 }
  
-class Solution_offer22_1 {
+class Solution_Offer_22_1 {
     public ListNode getKthFromEnd(ListNode head, int k) {
         int length = 0;
         ListNode tmp1 = head;    
@@ -24,7 +24,7 @@ class Solution_offer22_1 {
 }
 
 
-class Solution_offer22_2 {
+class Solution_Offer_22_2 {
     public ListNode getKthFromEnd(ListNode head, int k) {
         ListNode fast = head;
         ListNode slow = head;
